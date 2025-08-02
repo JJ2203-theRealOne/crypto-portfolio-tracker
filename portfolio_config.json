@@ -1,0 +1,34 @@
+{
+  "update_interval": 300,
+  "display_currency": "USD",
+  "performance_tracking": {
+    "track_24h_change": true,
+    "track_7d_change": true,
+    "track_30d_change": true,
+    "track_all_time": true
+  },
+  "alerts": {
+    "portfolio_drop_threshold": -10.0,
+    "portfolio_gain_threshold": 15.0,
+    "individual_coin_threshold": 20.0,
+    "enable_email_alerts": false,
+    "enable_webhook_alerts": false
+  },
+  "export_settings": {
+    "auto_export_csv": true,
+    "export_interval_hours": 24,
+    "keep_history_days": 90,
+    "backup_enabled": true
+  },
+  "display_options": {
+    "show_allocation_chart": true,
+    "show_24h_changes": true,
+    "decimal_places": 2,
+    "compact_mode": false
+  },
+  "api_settings": {
+    "request_timeout": 10,
+    "retry_attempts": 3,
+    "rate_limit_delay": 1
+  }
+}
